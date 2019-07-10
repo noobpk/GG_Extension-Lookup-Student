@@ -1,0 +1,45 @@
+{
+    "name": "Lookup-Student",
+    "description": "An extension to lookup any student information - Build by @noobpk - NOOB TEAM DEV",
+    "homepage_url": "https://noobpk.github.io/",
+    "version": "1.0",
+    "icons": {
+        "16": "img/16.png",
+        "32": "img/32.png",
+        "64": "img/64.png"
+    },
+    "browser_action":
+    {
+        "default_title": "Lookup-Student",
+        "default_icon": "img/logo.png"
+    },
+    "background":
+    {
+        "scripts": [
+            "scripts/background.js"
+        ],
+        "persistent": false
+    },
+    "options_page": "options.html",
+    "manifest_version": 2,
+    "content_scripts": [
+    	{
+    		"matches": [
+                "*://daotao.hutech.edu.vn/*.aspx?page=dangnhap",
+                "*://daotao.hutech.edu.vn/*.aspx?page=gioithieu"
+            ],
+    		"js": [
+                "scripts/jquery.min.js",
+                "scripts/process.js"
+            ]
+    	}
+    ],
+    "permissions": [
+        "tabs",
+        "storage",
+        "*://daotao.hutech.edu.vn/*.aspx?page=dangnhap",
+        "*://daotao.hutech.edu.vn/*.aspx?page=gioithieu",
+        "notifications"
+    ]
+
+}
