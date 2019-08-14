@@ -29,7 +29,7 @@ $(document).ready(function() {
 		}
 		else if(options == "0")
 		{
-			notiOption("Chosse option to view :p :3!");
+			notiOption("Chosse option to accesss!");
 		}
 		else {
 
