@@ -1,7 +1,7 @@
 var notiOption = function(message) {
 	var noti = {
 		type: "basic",
-		iconUrl: "img/64.png",
+		iconUrl: "img/256x256.png",
 		title: "An extension to lookup any student information",
 		message: message
 	};
