@@ -3,6 +3,7 @@ An extension help to lookup any student information on website : `http://daotao.
 
 #Screen Shot
 <img width="640" alt="Screen Shot" src="https://user-images.githubusercontent.com/31820707/63084035-7154b880-bf74-11e9-8894-1d0b2090914c.png">
+
 #Feature
 - [x] Autu login
 - [x] View schedule
